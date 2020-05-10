@@ -24,28 +24,13 @@
       <header>
         <ul id="nav-list">
           <li>
-            <a
-              href="#welcome-section"
-              onclick="handleNavigation(event)"
-              name="welcome-section-link"
-              >About</a
-            >
+            <a href="#welcome-section" onclick="handleNavigation(event)" id="welcome-section-link">About</a>
           </li>
           <li>
-            <a
-              href="#projects"
-              onclick="handleNavigation(event)"
-              name="projects-link"
-              >My Projects</a
-            >
+            <a href="#projects" onclick="handleNavigation(event)" id="projects-link">My Projects</a>
           </li>
           <li>
-            <a
-              href="#contact"
-              onclick="handleNavigation(event)"
-              name="contact-link"
-              >Contact</a
-            >
+            <a href="#contact" onclick="handleNavigation(event)" id="contact-link">Contact</a>
           </li>
         </ul>
       </header>
@@ -55,11 +40,7 @@
         <div class="hello-div">
           <div class="hello">
             Hello world!<small
-              ><a
-                href="#contact"
-                name="contact-link"
-                onclick="handleNavigation(event)"
-              >
+              ><a href="#contact" id="contact-link2" onclick="handleNavigation(event)">
                 <i class="fa fa-comments" aria-hidden="true"></i> 1 unread</a
               ></small
             >
@@ -70,73 +51,50 @@
           <em>A full-stack web developer</em>
         </div>
       </section>
-      <section id="projects">
+      <section id="projects" class="container">
         <h2>These are some of my projects</h2>
         <div class="projects-container">
           <div class="project-tile">
             <figure>
               <div class="phone">
-                <a
-                  href="https://lesleytech.github.io/tribute-page"
-                  target="_blank"
+                <a href="https://lesleytech.github.io/tribute-page" target="_blank"
                   ><img src="images/tribute-page.jpg" alt="Tribute page"
                 /></a>
               </div>
               <figcaption>
                 <header>Tribute page</header>
                 <p>This is a tribute to Martin Luther King Jr.</p>
-                <a
-                  href="https://lesleytech.github.io/tribute-page"
-                  target="_blank"
-                  >Visit website</a
-                >
+                <a href="https://lesleytech.github.io/tribute-page" target="_blank">Visit website</a>
               </figcaption>
             </figure>
           </div>
           <div class="project-tile">
             <figure>
               <div class="phone">
-                <a
-                  href="https://lesleytech.github.io/product-landing-page"
-                  target="_blank"
-                  ><img
-                    src="images/product-landing-page.jpg"
-                    alt="Product landing page"
+                <a href="https://lesleytech.github.io/product-landing-page" target="_blank"
+                  ><img src="images/product-landing-page.jpg" alt="Product landing page"
                 /></a>
               </div>
               <figcaption>
                 <header>Product landing page</header>
                 <p>This is a product landing page for a basketball vendor.</p>
-                <a
-                  href="https://lesleytech.github.io/product-landing-page"
-                  target="_blank"
-                  >Visit website</a
-                >
+                <a href="https://lesleytech.github.io/product-landing-page" target="_blank">Visit website</a>
               </figcaption>
             </figure>
           </div>
           <div class="project-tile">
             <figure>
               <div class="phone">
-                <a
-                  href="https://lesleytech.github.io/technical-doc-page"
-                  target="_blank"
-                  ><img
-                    src="images/technical-doc-page.jpg"
-                    alt="Technical documentation page"
+                <a href="https://lesleytech.github.io/technical-doc-page" target="_blank"
+                  ><img src="images/technical-doc-page.jpg" alt="Technical documentation page"
                 /></a>
               </div>
               <figcaption>
                 <header>Technical documentation page</header>
                 <p>
-                  This is a technical documentation page similar to bootstrap
-                  documentation.
+                  This is a technical documentation page similar to bootstrap documentation.
                 </p>
-                <a
-                  href="https://lesleytech.github.io/technical-doc-page"
-                  target="_blank"
-                  >Visit website</a
-                >
+                <a href="https://lesleytech.github.io/technical-doc-page" target="_blank">Visit website</a>
               </figcaption>
             </figure>
           </div>
@@ -152,18 +110,14 @@
                 <p>
                   This is a simple todo application with web storage support.
                 </p>
-                <a href="https://lesleytech.github.io/todo-app" target="_blank"
-                  >Visit website</a
-                >
+                <a href="https://lesleytech.github.io/todo-app" target="_blank">Visit website</a>
               </figcaption>
             </figure>
           </div>
           <div class="project-tile">
             <figure>
               <div class="phone">
-                <a
-                  href="https://lesleytech.github.io/calculator"
-                  target="_blank"
+                <a href="https://lesleytech.github.io/calculator" target="_blank"
                   ><img src="images/calculator.png" alt="Calculator"
                 /></a>
               </div>
@@ -172,20 +126,14 @@
                 <p>
                   This is a simple calculator application with offline support.
                 </p>
-                <a
-                  href="https://lesleytech.github.io/calculator"
-                  target="_blank"
-                  >Visit website</a
-                >
+                <a href="https://lesleytech.github.io/calculator" target="_blank">Visit website</a>
               </figcaption>
             </figure>
           </div>
           <div class="project-tile">
             <figure>
               <div class="phone">
-                <a
-                  href="https://lesleytech.github.io/awesome-quotes/"
-                  target="_blank"
+                <a href="https://lesleytech.github.io/awesome-quotes/" target="_blank"
                   ><img src="images/quote-generator.png" alt="Quote generator"
                 /></a>
               </div>
@@ -194,11 +142,7 @@
                 <p>
                   This is a quote generator that fetches quotes from an API.
                 </p>
-                <a
-                  href="https://lesleytech.github.io/quote-generator"
-                  target="_blank"
-                  >Visit website</a
-                >
+                <a href="https://lesleytech.github.io/quote-generator" target="_blank">Visit website</a>
               </figcaption>
             </figure>
           </div>
@@ -209,36 +153,23 @@
         <p>I'm available on</p>
         <ul>
           <li>
-            <a href="mailto:lesleytech6@gmail.com"
-              ><i class="fa fa-at fa-lg"></i> Email</a
-            >
+            <a href="mailto:lesleytech6@gmail.com"><i class="fa fa-at fa-lg"></i> Email</a>
           </li>
           <li>
-            <a
-              href="https://www.github.com/lesleytech"
-              target="_blank"
-              id="profile-link"
+            <a href="https://www.github.com/lesleytech" target="_blank" id="profile-link"
               ><i class="fa fa-github fa-lg" aria-hidden="true"></i> GitHub</a
             >
           </li>
           <li>
-            <a href="skype:lesleytech6@gmail.com?chat"
-              ><i class="fa fa-skype fa-lg" aria-hidden="true"></i> Skype</a
+            <a href="skype:lesleytech6@gmail.com?chat"><i class="fa fa-skype fa-lg" aria-hidden="true"></i> Skype</a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=100006193126159" target="_blank"
+              ><i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i> Facebook</a
             >
           </li>
           <li>
-            <a
-              href="https://www.facebook.com/profile.php?id=100006193126159"
-              target="_blank"
-              ><i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i>
-              Facebook</a
-            >
-          </li>
-          <li>
-            <a href="tel:+905338750064"
-              ><i class="fa fa-phone-square fa-lg" aria-hidden="true"></i>
-              Phone</a
-            >
+            <a href="tel:+905338750064"><i class="fa fa-phone-square fa-lg" aria-hidden="true"></i> Phone</a>
           </li>
         </ul>
       </section>

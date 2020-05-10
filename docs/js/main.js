@@ -1,10 +1,11 @@
 function handleNavigation(event) {
-    event.preventDefault();
-    const {
-        name
-    } = event.target;
-    const element = document.getElementById(name.slice(0, -5));
-    element.scrollIntoView({
-        behavior: "smooth"
-    });
+  event.preventDefault();
+
+  const { id } = event.target;
+
+  const element = document.getElementById(id.split('-').slice(0, -1).join('-'));
+
+  element.scrollIntoView({
+    behavior: 'smooth',
+  });
 }

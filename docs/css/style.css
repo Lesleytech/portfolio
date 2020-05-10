@@ -160,11 +160,11 @@ body {
 }
 
 /*My Projects Section */
-#projects {
+/* #projects {
   width: 90%;
   max-width: 1600px;
   margin: auto;
-}
+} */
 
 #projects h2 {
   color: #f8f9fa;
