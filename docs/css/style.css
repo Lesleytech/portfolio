@@ -77,7 +77,8 @@ body {
 /* Welcome Section */
 #welcome-section {
   padding-top: 60px;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
   box-sizing: border-box;
   display: flex;
   background: #181a1b;
@@ -85,7 +86,7 @@ body {
 
 .hello-div {
   position: relative;
-  height: 100%;
+  min-height: 100%;
   width: 300px;
   background: #33a2ff;
   display: flex;
@@ -198,43 +199,17 @@ body {
   background-size: cover;
 }
 
-.phone {
-  height: 500px;
-  min-width: 290px;
-  max-width: 290px;
-  background-image: url("../images/phone.png");
-  background-size: cover;
-  padding: 50px 20px 60px;
-  position: relative;
-  z-index: 10;
-  box-sizing: border-box;
-}
 
-.phone img {
-  height: 100%;
-  width: 100%;
-}
-
-.phone a::before {
-  content: "";
-  position: absolute;
-  top: 50px;
-  left: 15px;
-  right: 15px;
-  height: 0;
-  background: rgba(0, 0, 0, 0.3);
-  z-index: 10;
-  transition: all 0.3s ease;
-}
-.phone a:hover::before {
-  height: 390px;
-}
 
 figure {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0;
+}
+
+figure img {
+  max-width: 250px;
 }
 
 figcaption {
@@ -246,6 +221,18 @@ figcaption header {
   text-transform: capitalize;
   margin-bottom: 50px;
 }
+
+
+
+figcaption div a {
+  color: #33a2ff;
+  font-size: 16px;
+}
+
+figcaption div a i {
+  margin: 0 5px;
+}
+
 
 #contact {
   background: #181a1b;
@@ -271,6 +258,7 @@ figcaption header {
   font-weight: lighter;
   font-style: italic;
   color: #e8e9ea;
+  margin: 16px 0;
 }
 
 #contact ul {
@@ -290,6 +278,13 @@ figcaption header {
   font-size: 20px;
   font-weight: 500;
   transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+#contact a i {
+  font-size: 20px;
+  margin-right: 5px;
 }
 
 #contact a:hover {
@@ -310,6 +305,7 @@ footer {
 }
 
 @keyframes shake {
+
   10%,
   90% {
     transform: translate3d(-1px, 0, 0);
@@ -338,13 +334,13 @@ footer {
   }
 
   #welcome-section div:nth-child(2) {
-    height: 50%;
+    flex: 1;
   }
 
   .hello-div {
     width: 100%;
     justify-content: center;
-    height: 50%;
+    flex: 1;
   }
 
   .hello {
