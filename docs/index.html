@@ -1,291 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      rel="stylesheet"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Lafen Lesley Portfolio</title>
-  </head>
 
-  <body>
-    <nav id="navbar">
-      <header>
-        <ul id="nav-list">
-          <li>
-            <a
-              href="#welcome-section"
-              onclick="handleNavigation(event)"
-              id="welcome-section-link"
-              >About</a
-            >
-          </li>
-          <li>
-            <a
-              href="#projects"
-              onclick="handleNavigation(event)"
-              id="projects-link"
-              >My Projects</a
-            >
-          </li>
-          <li>
-            <a
-              href="#contact"
-              onclick="handleNavigation(event)"
-              id="contact-link"
-              >Contact</a
-            >
-          </li>
-        </ul>
-      </header>
-    </nav>
-    <main>
-      <section id="welcome-section">
-        <div class="hello-div">
-          <div class="hello">
-            Hello world!<small
-              ><a
-                href="#contact"
-                id="contact-link2"
-                onclick="handleNavigation(event)"
-              >
-                <i class="fa fa-comments" aria-hidden="true"></i> Let's talk</a
-              ></small
-            >
-          </div>
-        </div>
-        <div>
-          <h1>I am Lesley</h1>
-          <em>A full-stack web developer</em>
-        </div>
-      </section>
-      <section id="projects" class="container">
-        <h2>These are some of my projects</h2>
-        <div class="projects-container">
-          <div class="project-tile">
-            <figure>
-              <a
-                href="https://lesleytech.github.io/tribute-page"
-                target="_blank"
-                ><img src="images/tribute-page.png" alt="Tribute page"
-              /></a>
-              <figcaption>
-                <header>Tribute page</header>
-                <p>This is a tribute to Martin Luther King Jr.</p>
-                <div>
-                  <a
-                    href="https://lesleytech.github.io/tribute-page"
-                    target="_blank"
-                    title="Visit website"
-                    ><i class="fa fa-globe fa-2x" aria-hidden="true"></i
-                  ></a>
-                  <a
-                    href="https://github.com/lesleytech/tribute-page"
-                    target="_blank"
-                    title="View code on github"
-                    ><i class="fa fa-github fa-2x" aria-hidden="true"></i></i
-                  ></a>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="project-tile">
-            <figure>
-              <a
-                href="https://lesleytech.github.io/product-landing-page"
-                target="_blank"
-                ><img
-                  src="images/product-landing-page.png"
-                  alt="Product landing page"
-              /></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Lafen Lesley Portfolio</title>
+</head>
 
-              <figcaption>
-                <header>Product landing page</header>
-                <p>This is a product landing page for a basketball vendor.</p>
-                <div>
-                  <a
-                    href="https://lesleytech.github.io/product-landing-page"
-                    target="_blank"
-                    title="Visit website"
-                    ><i class="fa fa-globe fa-2x" aria-hidden="true"></i
-                  ></a>
-                  <a
-                    href="https://github.com/lesleytech/product-landing-page"
-                    target="_blank"
-                    title="View code on github"
-                    ><i class="fa fa-github fa-2x" aria-hidden="true"></i></i
-                  ></a>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="project-tile">
-            <figure>
-              <a
-                href="https://lesleytech.github.io/markdown-previewer"
-                target="_blank"
-                ><img
-                  src="images/markdown-previewer.png"
-                  alt="markdown previewer"
-              /></a>
-              <figcaption>
-                <header>Markdown Previewer</header>
-                <p>This is a simple, responsive react markdown previewer.</p>
-                <div>
-                  <a
-                    href="https://lesleytech.github.io/markdown-previewer"
-                    target="_blank"
-                    title="Visit website"
-                    ><i class="fa fa-globe fa-2x" aria-hidden="true"></i
-                  ></a>
-                  <a
-                    href="https://github.com/lesleytech/markdown-previewer"
-                    target="_blank"
-                    title="View code on github"
-                    ><i class="fa fa-github fa-2x" aria-hidden="true"></i></i
-                  ></a>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="project-tile">
-            <figure>
-              <a href="https://lesleytech.github.io/todo-app" target="_blank"
-                ><img src="images/todo-app.png" alt="Todo App"
-              /></a>
-              <figcaption>
-                <header>Todo app</header>
-                <p>
-                  This is a simple todo application with web storage support.
-                </p>
-                <div>
-                  <a
-                    href="https://lesleytech.github.io/todo-app"
-                    target="_blank"
-                    title="Visit website"
-                    ><i class="fa fa-globe fa-2x" aria-hidden="true"></i
-                  ></a>
-                  <a
-                    href="https://github.com/lesleytech/todo-app"
-                    target="_blank"
-                    title="View code on github"
-                    ><i class="fa fa-github fa-2x" aria-hidden="true"></i></i
-                  ></a>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="project-tile">
-            <figure>
-              <a href="https://lesleytech.github.io/calculator" target="_blank"
-                ><img src="images/calculator.png" alt="Calculator"
-              /></a>
-              <figcaption>
-                <header>Calculator</header>
-                <p>
-                  This is a simple calculator application with offline support.
-                </p>
-                <div>
-                  <a
-                    href="https://lesleytech.github.io/calculator"
-                    target="_blank"
-                    title="Visit website"
-                    ><i class="fa fa-globe fa-2x" aria-hidden="true"></i
-                  ></a>
-                  <a
-                    href="https://github.com/lesleytech/calculator"
-                    target="_blank"
-                    title="View code on github"
-                    ><i class="fa fa-github fa-2x" aria-hidden="true"></i></i
-                  ></a>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="project-tile">
-            <figure>
-              <a
-                href="https://lesleytech.github.io/awesome-quotes/"
-                target="_blank"
-                ><img src="images/quote-generator.png" alt="Quote generator"
-              /></a>
-              <figcaption>
-                <header>Quote generator</header>
-                <p>
-                  This is a quote generator that fetches quotes from an API.
-                </p>
-                <div>
-                  <a
-                    href="https://lesleytech.github.io/awesome-quotes"
-                    target="_blank"
-                    title="Visit website"
-                    ><i class="fa fa-globe fa-2x" aria-hidden="true"></i
-                  ></a>
-                  <a
-                    href="https://github.com/lesleytech/awesome-quotes"
-                    target="_blank"
-                    title="View code on github"
-                    ><i class="fa fa-github fa-2x" aria-hidden="true"></i></i
-                  ></a>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
+<body>
+  <div id="update">
+    <p>Visit my new <a href="https://portfolio.lesleytech.vercel.app">portfolio website</a></p>
+  </div>
+  <nav id="navbar">
+    <header>
+      <ul id="nav-list">
+        <li>
+          <a href="#welcome-section" onclick="handleNavigation(event)" id="welcome-section-link">About</a>
+        </li>
+        <li>
+          <a href="#projects" onclick="handleNavigation(event)" id="projects-link">My Projects</a>
+        </li>
+        <li>
+          <a href="#contact" onclick="handleNavigation(event)" id="contact-link">Contact</a>
+        </li>
+      </ul>
+    </header>
+  </nav>
+  <main>
+    <section id="welcome-section">
+      <div class="hello-div">
+        <div class="hello">
+          Hello world!<small><a href="#contact" id="contact-link2" onclick="handleNavigation(event)">
+              <i class="fa fa-comments" aria-hidden="true"></i> Let's talk</a></small>
         </div>
-      </section>
-      <section id="contact">
-        <h2>Hire me now...</h2>
-        <p>I'm available on</p>
-        <ul>
-          <li>
-            <a href="mailto:lesleytech6@gmail.com"
-              ><i class="fa fa-at"></i> Email</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.github.com/lesleytech"
-              target="_blank"
-              id="profile-link"
-              ><i class="fa fa-github" aria-hidden="true"></i> GitHub</a
-            >
-          </li>
-          <li>
-            <a href="skype:lesleytech6@gmail.com?chat"
-              ><i class="fa fa-skype" aria-hidden="true"></i> Skype</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.facebook.com/profile.php?id=100006193126159"
-              target="_blank"
-              ><i class="fa fa-facebook-official" aria-hidden="true"></i>
-              Facebook</a
-            >
-          </li>
-          <li>
-            <a href="tel:+905338750064"
-              ><i class="fa fa-phone-square" aria-hidden="true"></i> Phone</a
-            >
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer>
-      <small class="text-muted">Copyright &copy;2020 Lafen Lesley</small>
-    </footer>
-    <script src="js/main.js"></script>
-    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
-  </body>
+      </div>
+      <div>
+        <h1>I am Lesley</h1>
+        <em>A full-stack web developer</em>
+      </div>
+    </section>
+    <section id="projects" class="container">
+      <h2>These are some of my projects</h2>
+      <div class="projects-container">
+        <div class="project-tile">
+          <figure>
+            <a href="https://lesleytech.github.io/tribute-page" target="_blank"><img src="images/tribute-page.png"
+                alt="Tribute page" /></a>
+            <figcaption>
+              <header>Tribute page</header>
+              <p>This is a tribute to Martin Luther King Jr.</p>
+              <div>
+                <a href="https://lesleytech.github.io/tribute-page" target="_blank" title="Visit website"><i
+                    class="fa fa-globe fa-2x" aria-hidden="true"></i></a>
+                <a href="https://github.com/lesleytech/tribute-page" target="_blank" title="View code on github"><i
+                    class="fa fa-github fa-2x" aria-hidden="true"></i></i></a>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="project-tile">
+          <figure>
+            <a href="https://lesleytech.github.io/product-landing-page" target="_blank"><img
+                src="images/product-landing-page.png" alt="Product landing page" /></a>
+
+            <figcaption>
+              <header>Product landing page</header>
+              <p>This is a product landing page for a basketball vendor.</p>
+              <div>
+                <a href="https://lesleytech.github.io/product-landing-page" target="_blank" title="Visit website"><i
+                    class="fa fa-globe fa-2x" aria-hidden="true"></i></a>
+                <a href="https://github.com/lesleytech/product-landing-page" target="_blank"
+                  title="View code on github"><i class="fa fa-github fa-2x" aria-hidden="true"></i></i></a>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="project-tile">
+          <figure>
+            <a href="https://lesleytech.github.io/markdown-previewer" target="_blank"><img
+                src="images/markdown-previewer.png" alt="markdown previewer" /></a>
+            <figcaption>
+              <header>Markdown Previewer</header>
+              <p>This is a simple, responsive react markdown previewer.</p>
+              <div>
+                <a href="https://lesleytech.github.io/markdown-previewer" target="_blank" title="Visit website"><i
+                    class="fa fa-globe fa-2x" aria-hidden="true"></i></a>
+                <a href="https://github.com/lesleytech/markdown-previewer" target="_blank"
+                  title="View code on github"><i class="fa fa-github fa-2x" aria-hidden="true"></i></i></a>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="project-tile">
+          <figure>
+            <a href="https://lesleytech.github.io/todo-app" target="_blank"><img src="images/todo-app.png"
+                alt="Todo App" /></a>
+            <figcaption>
+              <header>Todo app</header>
+              <p>
+                This is a simple todo application with web storage support.
+              </p>
+              <div>
+                <a href="https://lesleytech.github.io/todo-app" target="_blank" title="Visit website"><i
+                    class="fa fa-globe fa-2x" aria-hidden="true"></i></a>
+                <a href="https://github.com/lesleytech/todo-app" target="_blank" title="View code on github"><i
+                    class="fa fa-github fa-2x" aria-hidden="true"></i></i></a>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="project-tile">
+          <figure>
+            <a href="https://lesleytech.github.io/calculator" target="_blank"><img src="images/calculator.png"
+                alt="Calculator" /></a>
+            <figcaption>
+              <header>Calculator</header>
+              <p>
+                This is a simple calculator application with offline support.
+              </p>
+              <div>
+                <a href="https://lesleytech.github.io/calculator" target="_blank" title="Visit website"><i
+                    class="fa fa-globe fa-2x" aria-hidden="true"></i></a>
+                <a href="https://github.com/lesleytech/calculator" target="_blank" title="View code on github"><i
+                    class="fa fa-github fa-2x" aria-hidden="true"></i></i></a>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="project-tile">
+          <figure>
+            <a href="https://lesleytech.github.io/awesome-quotes/" target="_blank"><img src="images/quote-generator.png"
+                alt="Quote generator" /></a>
+            <figcaption>
+              <header>Quote generator</header>
+              <p>
+                This is a quote generator that fetches quotes from an API.
+              </p>
+              <div>
+                <a href="https://lesleytech.github.io/awesome-quotes" target="_blank" title="Visit website"><i
+                    class="fa fa-globe fa-2x" aria-hidden="true"></i></a>
+                <a href="https://github.com/lesleytech/awesome-quotes" target="_blank" title="View code on github"><i
+                    class="fa fa-github fa-2x" aria-hidden="true"></i></i></a>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Hire me now...</h2>
+      <p>I'm available on</p>
+      <ul>
+        <li>
+          <a href="mailto:lesleytech6@gmail.com"><i class="fa fa-at"></i> Email</a>
+        </li>
+        <li>
+          <a href="https://www.github.com/lesleytech" target="_blank" id="profile-link"><i class="fa fa-github"
+              aria-hidden="true"></i> GitHub</a>
+        </li>
+        <li>
+          <a href="skype:lesleytech6@gmail.com?chat"><i class="fa fa-skype" aria-hidden="true"></i> Skype</a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=100006193126159" target="_blank"><i
+              class="fa fa-facebook-official" aria-hidden="true"></i>
+            Facebook</a>
+        </li>
+        <li>
+          <a href="tel:+905338750064"><i class="fa fa-phone-square" aria-hidden="true"></i> Phone</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <small class="text-muted">Copyright &copy;2020 Lafen Lesley</small>
+  </footer>
+  <script src="js/main.js"></script>
+  <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+</body>
+
 </html>
